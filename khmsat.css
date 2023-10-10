@@ -1,0 +1,567 @@
+
+*{
+padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;
+font-family: "open sans","helvetica neue",Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #e7e7e79a;
+}
+
+/* start nav */
+nav{
+background-color: rgb(19, 18, 18);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 7px 16px;
+position: fixed;
+width: 100%;
+height: 70px;
+z-index: 3;
+
+}
+
+.rieght ,.left :hover{
+  color: #9fa6ac;
+}
+
+nav a{
+text-decoration: none;
+margin:0 10px;
+font-size: 17px;
+font-weight: 500;
+color: aliceblue;
+}
+
+.fofa{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.left {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@media screen and (max-width:922px) {
+  body{
+    overflow-x: hidden;
+  }
+  nav .icons{
+    display: none;
+  }
+  }
+  
+.bars{
+  font-size: 30px;
+}
+.reight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i{
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0px;
+  }
+/* end nav */
+
+
+.container{ 
+text-align: center;
+padding-top: 30vh;
+background-image: url(" خلفيه خمسات.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 100vh;
+background-attachment: fixed;
+}
+
+.container h1{
+font-size: 45px;
+font-weight: 300px;
+margin-bottom: 30px;
+}
+
+.container p{
+font-size: 27px;
+font-weight: 100;
+margin-bottom: 20px;
+} 
+
+
+.container form{
+background: white;
+width: 60%;
+border: 1px solid #5fa849;
+margin: 10px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 65px;
+padding: 0px 27px  2px 30px;
+position: relative;
+height: 60px;
+}
+.container ::selection{
+  background-color: #0fa343;
+  color: white;
+}
+.container input {
+flex-grow: 1px;
+flex-wrap: wrap;
+border: none;
+outline: none;
+padding:5px 10px ;
+direction: rtl;
+font-size: larger;
+position: absolute;
+right: 10px;
+background-color: transparent;
+}
+@media screen and (max-width:576px){
+  ::placeholder{
+    font-size: 11px;
+  }
+ .container form button{
+  font-size: 12px;
+  font-weight: normal;
+ }
+}
+
+form button{
+padding: 15px 30px;
+position: absolute;
+left: 10px;
+bottom: 7px;
+background-color: #068f06;
+font-weight: 600;
+border: none;
+color: white;
+cursor: pointer;
+transition: 0.5s;
+}
+form button:hover{
+  background-color:  #2aae02;
+}
+
+/* start cards div services .............. >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+section .services{
+  font-size: 35px;
+padding: 10px;
+flex-wrap: wrap;
+text-align: center;
+/* background-color: #0fa343; */
+}
+
+body .div3{
+display: flex;
+justify-content: space-evenly;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+width: 100%;
+}
+section .div4{
+  position: relative;
+  flex-basis: 24%;
+  cursor: pointer;
+}
+  section .div4 .par1{
+position: absolute;
+left: 90px;
+top: 90px;
+text-align: center;
+font-size:xx-large ;
+height: 150px;
+flex-wrap: wrap;
+color: #000;
+}
+
+.div3 img{
+border-radius: 10px 10px;
+box-shadow : 2px 2px 2px 3px rgb(118, 82, 150);
+margin: 20px 3px;
+/* flex-wrap: wrap; */
+}
+
+/* end cards div  services  .................. */
+
+
+/* start section how */
+.how-work{
+background-color: #e7e7e79a;
+/* flex-wrap: wrap; */
+}
+.how{
+  padding: 15px 40px;
+text-align: center;
+font-size: xx-large;
+}
+
+.div5{
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: space-around;
+min-height: 280px;
+flex-direction:row-reverse;
+
+}
+.allServ{
+  background-color: #fff;
+  width: 30%;
+  min-height: 170px;
+  position: relative;
+  /* flex-wrap: wrap; */
+}
+.allServ span{
+  background-color: #2ec002;
+  width: 45px;
+  height: 45px;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  bottom: -20px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 7px ;
+}
+  h2 , p{
+display: flex;
+justify-content: space-around;
+padding: 1px 55px;
+margin: 20px 0px;
+direction: rtl;
+line-height: 30px;
+}
+/* end section how */
+
+
+/* <!-- start services work --> */
+
+.end .info {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.end .info button{
+display: inline-block;
+padding: 10px 20px;
+font-size: 1.2em;
+background-color: white;
+color: #0fa80f;
+border: 1px solid #068f06;
+font-weight: 300;
+transition: 0.5s;
+
+}
+.end .info button:hover{
+background-color: green;
+transform: scale(0.9);
+color: white;
+cursor: pointer;
+}
+.end .info h2{
+font-size: 2.3em;
+font-weight: 200;
+color: #282828;
+}
+
+.end{
+padding: 0 25px;
+/* margin-top:7px ; */
+
+}
+
+.end-container{
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.card{
+border: 1px solid #000;
+flex-basis: 280px;
+height: 390px;
+text-align: right;
+box-shadow: 10px 10px 15px #443f3f61;
+border-radius: 6px;
+margin: 10px;
+transition: all 0.5s;
+position: relative;
+flex-grow: 1;
+
+}
+.card:hover{
+transform: scale(0.9);
+}
+.card img{
+width: 100%;
+border-top-right-radius:10px ;
+border-top-left-radius: 10px;
+}
+
+.card-info{
+margin-top: 10px;
+padding: 0 10px;
+}
+
+.card-info h3{
+font-weight: 400;
+margin-bottom: 10px;
+font-size: 17px;
+position: absolute;
+right: 10px;
+}
+.card-info p{
+  position: absolute;
+bottom: 20px;
+right: 10px;
+font-size: 14px;
+font-weight: lighter;
+padding: 0px 0px 22px 10px;
+
+}
+.rate{
+  position: absolute;
+  right: 10px;
+  bottom: 35px;
+
+}
+.rate i{
+display: inline-block;
+font-size: 1em;
+margin-left: 5px;
+margin-bottom: 1px;
+color: #fcad1a;
+}
+.card-info strong{
+  position: absolute;
+  right: 20px;
+  bottom: 2px;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1.em;
+}
+
+/* <!-- end services work --> */
+
+
+ /* start questions */
+
+.details2{
+display: flex;
+padding:10px 70px;
+font-size: 25px;
+font-weight: 100;
+transition: all 0.5s;
+
+}
+
+.details1{
+font-size: 18px;
+width: 100%;
+cursor: pointer;
+direction: rtl;
+line-height: 35px;
+margin: 10px 0;
+transition: all 0.5s;
+}
+.details1:hover{
+  scale: 0.9;
+}
+
+.questions{
+min-height: 350px;
+padding: 10px 70px;
+flex-wrap: wrap;
+}
+
+.questions h2{
+  font-size: 40px;
+  color: #2aae02;
+  font-weight: normal;
+}
+.questions hr{
+  width: 94%;
+}
+ /* end questions */
+
+.sign-now{
+width: 100%;
+height: 200px;
+display: block;
+background-color: #3e3e3e;
+color: white;
+text-align: center;
+}
+.sign-now h1{
+padding-top: 40px;
+/* padding: 30px; */
+
+}
+ .sign-now button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  background-color: #0fa80f;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  /* border: 1px solid #068f06; */
+  font-weight: 300;
+  transition: 0.5s;
+  cursor: pointer;  
+}
+.sign-now button:hover{
+  background-color: #0fa80fbe;
+}
+
+
+
+/* start mainlist */
+
+.mainList{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  direction: rtl;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 30px;
+}
+ul li{
+  list-style: none;
+  padding: 6px;
+  flex-direction: row-reverse;
+  font-size: 18px;
+  margin: 10px;
+  /* margin-bottom: 40px; */
+
+}
+ul a{
+  text-decoration: none;
+  color: #84B535;
+}
+.mainList ul .title{
+  font-size: 21px;
+}
+.mainList .icons{
+  display: flex;
+}
+.mainList .icons li a{
+  color: gray;
+  font-size: 28px;
+}
+.mainList .twitter i{
+  background-color: skyblue;
+  color: white ;
+  padding: 7px;
+  font-size: 24px;
+}
+.mainList .facebook i{
+  background-color: #3B5998;
+  color: white;
+  padding: 7px 10px;
+  font-size: 24px;
+}
+
+/* end mainList */
+
+
+/* start conditions */
+
+.conditions{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 10px;
+  flex-wrap: wrap;
+  /* background-color:#e6e6e6; */
+  margin-top: 30px;
+}
+.conditions .titles a{
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  font-weight: 100;
+}
+.conditions .titles{
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+.conditions p{
+  font-size: 12px;
+}
+
+/* end conditions */
+
+
+/* start hasub */
+
+.contentHasub{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  background-color: white;
+  padding: 0 50px;
+}
+.hasub{
+  background-color: white;
+  
+}
+.hasub .image{
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+.hasub img{
+  width: 130px;
+ 
+}
+.hasub .hasubInfo{
+  margin: 5px;
+  cursor: pointer;
+}
+.hasub .hasubInfo h2{
+  font-size: 16px;
+  font-weight: 100;
+}
+.hasub .hasubInfo p{
+  font-size: 11px;
+  color: #77779E;
+}
+
+
+/* end hasub */
+
+
+
+
+
+
+
+
+
+
+
+
+
